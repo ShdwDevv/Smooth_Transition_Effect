@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.nav-list {
+  height: 10vh;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50%;
+  list-style: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.home {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.about {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.contact {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.home, .about, .contact {
+  height: 90vh;
+  width: 100%;
+  position: absolute;
+}
+
+.home-content, .about-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+.home-content img, .about-content img {
+  height: 60%;
+}
+.home-content h1, .about-content h1 {
+  font-size: 50px;
+}
+.home-content p, .about-content p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .home-content, .about-content {
+    flex-direction: column;
+  }
+  .home-content img, .about-content img {
+    height: 40%;
+  }
+}
+@media only screen and (max-width: 449px) {
+  .home-content img, .about-content img {
+    height: 30%;
+  }
+  .home-content h1, .about-content h1 {
+    font-size: 30px;
+  }
+  .home-content p, .about-content p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .home-content img, .about-content img {
+    height: 25%;
+  }
+  .home-content h1, .about-content h1 {
+    font-size: 25px;
+  }
+  .home-content p, .about-content p {
+    font-size: 12px;
+  }
+  .nav-list {
+    column-gap: 10px;
+    margin-left: min(40%, 50px);
+  }
+}
+
+/*# sourceMappingURL=/style.6b54f5b7.css.map */
