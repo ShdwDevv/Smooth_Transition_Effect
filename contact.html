@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="./icons/contact.ico">
+    <link rel="stylesheet" href="./css/style.scss">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="./index.html" class="nav-links">Home</a></li>
+            <li><a href="./about.html" class="nav-links">About</a></li>
+            <li><a href="./contact.html" class="nav-links">Contacts</a></li>
+        </ul>
+    </nav>
+    <main data-router-wrapper>
+        <section data-router-view="home" class="contact">
+            <!-- Going to animate this home content -->
+            <div class="home-content">
+                <div class="home-presentation">
+                    <h1>Contact us</h1>
+                    <p>We always there for you</p>
+                </div>
+                <img src="./images/contact.jpg" alt="">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

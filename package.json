@@ -1,0 +1,28 @@
+{
+  "name": "83-smooth-transition-effect",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "* npm init",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShdwDevv/Smooth_Transition_Effect.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShdwDevv/Smooth_Transition_Effect/issues"
+  },
+  "homepage": "https://github.com/ShdwDevv/Smooth_Transition_Effect#readme",
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "gsap": "^3.12.5",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "sass": "^1.80.7"
+  }
+}
